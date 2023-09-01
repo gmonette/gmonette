@@ -1,4 +1,6 @@
 .Rproj.user
+Thumbs.db
+.hugo_build.lock
 .Rhistory
 .Rdata
 .httr-oauth

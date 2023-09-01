@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://blackwell.math.yorku.ca/gmonette/sitemap.xml

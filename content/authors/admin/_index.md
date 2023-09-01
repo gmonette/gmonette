@@ -17,19 +17,19 @@ organizations:
 - name: York University
   url: https://yorku.ca/
 role: Associate Professor of Mathematics and Statistics
-# social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: /#contact
+social:
+- icon: envelope
+  icon_pack: fas
+  link: /#contact
 # - display:
 #     header: true
 #   icon: twitter
-#   icon_pack: fab
+# - icon_pack: fab
 #   label: Follow me on Twitter
 #   link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.com/citations?user=6aBI7UIAAAAJ&hl=en
+  link: https://scholar.google.com/citations?hl=en&user=6aBI7UIAAAAJ&view_op=list_works&sortby=pubdate
 - icon: github
   icon_pack: fab
   link: https://github.com/gmonette
@@ -42,7 +42,7 @@ role: Associate Professor of Mathematics and Statistics
 status:
   icon: ☕️
 superuser: true
-title: Georges Monette (il/he)
+title: Georges Monette
 ---
 Georges Monette is an Associate Professor or Mathematics and Statistics at York University.  He is an Associate Coordinator of the
 [Statistical Consulting Service](https://www.yorku.ca/research/scs/) at York and a Faculty Fellow of the

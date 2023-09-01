@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic</title>
+    <link>http://blackwell.math.yorku.ca/gmonette/</link>
+      <atom:link href="http://blackwell.math.yorku.ca/gmonette/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/post/getting-started/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomsponsor&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/post/2020-12-01-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;http://blackwell.math.yorku.ca/gmonette/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Markdown</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the &lt;code&gt;syntax_highlighter&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown &lt;code&gt;markmap&lt;/code&gt; code block and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;A simple mindmap defined as a Markdown list:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - wowchemy
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - wowchemy
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap
+- Mindmaps
+  - Links
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- Mindmaps
+  - Links
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+
+
+&lt;div id=&#34;chart-825349716&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-825349716&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively. (We wrap the LaTeX math in the Wowchemy &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown. The &lt;em&gt;math&lt;/em&gt; shortcode is new in v5.5-dev.)&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as 
+
+$\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+
+
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+&lt;/div&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+&lt;table class=&#34;table&#34;&gt;
+  
+    
+    
+    &lt;tr&gt;  &lt;th&gt;customer_id&lt;/th&gt;  &lt;th&gt;score&lt;/th&gt;  &lt;/tr&gt;
+  
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  
+    &lt;caption&gt;Table 1: My results&lt;/caption&gt;
+  
+&lt;/table&gt;
+
+&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Click to view the spoiler&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
+  &lt;p&gt;You found me!&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://wowchemy.com/docs/getting-started/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;terminal&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fas&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Terminal  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Python  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;r-project&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} R
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/post/jupyter/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;IPython.core.display&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter lab index.ipynb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: My post&amp;#39;s title
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2019-09-01
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Put any other Academic metadata here...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://blackwell.math.yorku.ca/gmonette/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Quotes</title>
+      <link>http://blackwell.math.yorku.ca/gmonette/home/quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://blackwell.math.yorku.ca/gmonette/home/quotes/</guid>
+      <description>&lt;p&gt;The things we consider important are often undervalued by other
+disciplines &amp;hellip; One of the most important concepts in Statistics is that of missing data.
+For most people it&amp;rsquo;s easy to ignore because much of it is not
+very visible.&lt;br&gt;&amp;mdash; &lt;em&gt;Cyntha Struthers and Don McLeish&lt;/em&gt; in a workshop in 2015&lt;/p&gt;
+&lt;p&gt;&amp;hellip; in all the sciences, we&amp;rsquo;ve got to make sure that we are supporting the
+idea that they&amp;rsquo;re not subject to politics, that they&amp;rsquo;re not skewed by an
+agenda, that, as I said before, we make sure that we go where the evidence
+leads us.&amp;quot; &lt;br&gt;&amp;mdash; &lt;em&gt;Barack Obama&lt;/em&gt;
+We can&amp;rsquo;t just learn what we want to know, but what we should know.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Joseph R. Biden&lt;/em&gt;
+Often decisions about interventions must be made, even if based on limited
+empirical evidence, and we should help decision-makers make sensible
+decisions under clearly stated assumptions so that &amp;ldquo;consumers&amp;rdquo; of the
+conclusion about the effects of some intervention can honestly weigh the
+support for that conclusion. &lt;br&gt;&amp;mdash; &lt;em&gt;Donald Rubin&lt;/em&gt;
+To teach how to live without certainty, and yet without being paralysed by
+hesitation, is perhaps the chief thing that philosophy, in our age, can still
+do for those who study it.  &lt;br&gt;&amp;mdash; &lt;em&gt;Bertrand Russell&lt;/em&gt;
+Human History becomes more and more a race between education and catastrophe.
+&lt;br&gt;&amp;mdash; &lt;em&gt;H. G. Wells&lt;/em&gt;
+Would you rather know the chance of making an assertion of efficacy when the
+treatment has no effect, or the chance that the treatment is effective?
+&lt;br&gt;&amp;mdash; &lt;em&gt;Frank H. Harrell&lt;/em&gt;
+Philosophical unification of the Bayesian and frequentist positions is not likely, nor desirable, since
+each illuminates a different aspect of statistical inference. We can hope, however, that we will eventually
+have a general methodological unification, with both
+Bayesians and frequentists agreeing on a body of standard statistical procedures for general use.
+&lt;br&gt;&amp;mdash; &lt;em&gt;M. J. (Susie) Bayarri and James O. Berger&lt;/em&gt; (2004) &amp;ldquo;The Interplay of Bayesian and Frequentist Analysis.&amp;rdquo; &lt;em&gt;Statistical Science&lt;/em&gt; v. 19. (thanks to Hugh McCague)&lt;/p&gt;
+&lt;p&gt;The rubber hits the road where the data hits the code. &lt;br&gt;&amp;mdash; &lt;em&gt;Janet McDougall&lt;/em&gt;
+The best thing about being a statistician is that you get to play in
+everyone&amp;rsquo;s backyard. &lt;br&gt;&amp;mdash; &lt;em&gt;John W. Tukey,&lt;/em&gt; who, incidentally, coined the terms
+&amp;lsquo;software&amp;rsquo; and &amp;lsquo;bit&amp;rsquo;.
+Once you know hierarchies exist, you see them everywhere &lt;br&gt;&amp;mdash; &lt;em&gt;Ita Kreft and Jan
+de Leeuw (1998) &amp;ldquo;Introducing Multilevel Modeling&amp;rdquo;&lt;/em&gt;
+Once you tune into ellipses, you will begin to see them everywhere &amp;hellip; &lt;br&gt;&amp;mdash;
+&lt;em&gt;James McMullan&lt;/em&gt;
+&amp;ldquo;. . . because of the exiguity of our thought which is able to realize only what it can represent to itself and leaves everything else in an obscurity . . .&amp;rdquo; &lt;br&gt;&amp;mdash;
+&lt;em&gt;Marcel Proust&lt;/em&gt;, Remembrance of Thing Past: The Prisoner
+&lt;span class=&#34;marginnote&#34;&gt;
+&lt;img src=&#39;../pix/duchampwheel.png&#39; alt=&#34;Bicycle Wheel&#34;&gt;
+Ellipse and conjugate axis generator &amp;mdash; &lt;em&gt;Marcel Duchamp&lt;/em&gt;&lt;br&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I believe that the artist doesn&amp;rsquo;t know what he does. I attach even more
+importance to the spectator than to the artist. &lt;br&gt;&amp;mdash; &lt;em&gt;Marcel Duchamp&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I hate a liar more than I hate a thief. A thief is after my salary &amp;ndash; a
+liar is after my reality. &lt;br&gt;&amp;mdash; &lt;em&gt;50 Cent&lt;/em&gt;
+No amount of experimentation will prove me right; a single experiment
+can prove me wrong. &lt;br&gt;&amp;mdash; &lt;em&gt;Albert Einstein&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The best thing about being a statistician is that you get a license to poke
+your nose into everyone else&amp;rsquo;s business. &lt;br&gt;&amp;mdash; (??)
+The best thing about universities is individual freedom, the worst thing is
+collective irresponsibility. &lt;br&gt;&amp;mdash; &lt;em&gt;David Northrup&lt;/em&gt;
+Humanists believe that the world has a fixed number of mysteries, so that
+when one is solved, our sense of wonder is diminished. Scientists believe
+that the world has endless mysteries, so that when one is solved, there are
+always new ones to ponder. &lt;br&gt;&amp;mdash; &lt;em&gt;D. O. Hebb quoted by Steven Pinker&lt;/em&gt;
+Far better an approximate answer to the right question, which is often vague,
+than an exact answer to the wrong question, which can always be made precise.
+&lt;br&gt;&amp;mdash; &lt;em&gt;John W. Tukey,&lt;/em&gt; (1962), &amp;ldquo;The future of data analysis.&amp;rdquo; Annals of
+Mathematical Statistics 33, 1-67.
+A bad answer to a good question may be far better than a good answer to a bad
+question. &lt;br&gt;&amp;mdash; a graduate class extrapolating from Tukey&amp;rsquo;s dictum.
+It is better to know some of the questions than all of the answers.
+&lt;br&gt;&amp;mdash; &lt;em&gt;James Thurber&lt;/em&gt;
+I have a lot of questions . . . but I don&amp;rsquo;t know what they are. &lt;br&gt;&amp;mdash; overheard
+at the end of what must have been an inspiring lecture
+The worst, i.e., most dangerous, feature of  &amp;lsquo;accepting the null hypothesis&amp;rsquo;
+is the giving up of explicit uncertainty . . . Mathematics can sometimes be
+put in such black-and-white terms, but our knowledge or belief about the
+external world never can. &lt;br&gt;&amp;mdash; &lt;em&gt;John W. Tukey.&lt;/em&gt; (1991). &amp;ldquo;The Philosophy of
+Multiple Comparisons.&amp;rdquo; Statistical Science 6, 100&amp;ndash;116.
+Where there is no uncertainty there cannot be truth. &lt;br&gt;&amp;mdash; &lt;em&gt;Richard Feynman&lt;/em&gt;
+(confirmed by Bill Langford)
+So far as the theories of mathematics are about reality, they are not
+certain; so far as they are certain, they are not about reality.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Albert Einstein&lt;/em&gt;
+Doubt is not a pleasant condition, but certainty is absurd. - &lt;em&gt;Voltaire&lt;/em&gt;
+Art is a lie that enables us to realize the truth. &lt;br&gt;&amp;mdash; &lt;em&gt;Pablo Picasso&lt;/em&gt;
+At their best, graphics are instruments for reasoning. &lt;br&gt;&amp;mdash; &lt;em&gt;Edward Tufte&lt;/em&gt;,
+&lt;a href=&#34;https://www.edwardtufte.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.edwardtufte.com&lt;/a&gt;
+An elementary demonstration is one that requires no knowledge &amp;mdash; just an
+infinite amount of intelligence. &lt;br&gt;&amp;mdash; &lt;em&gt;Richard Feynman.&lt;/em&gt;
+All models are wrong but some are useful.
+&lt;br&gt;&amp;mdash; &lt;em&gt;George E.P. Box&lt;/em&gt;
+All models are wrong but, we hope, not as wrong as the ones we used earlier.
+&lt;br&gt;&amp;mdash; paraphrased from &lt;em&gt;Isaac Asimov&lt;/em&gt;
+&amp;lsquo;All models are wrong&amp;rsquo; is a model, thus must be wrong. Perhaps it&amp;rsquo;s useful
+&lt;br&gt;&amp;mdash; paraphrased from a comment on a blog.
+&lt;span class=&#34;marginnote&#34;&gt;
+&lt;img width=&#39;300&#39; height=&#39;500&#39; src=&#39;../pix/boxcox.gif&#39; alt=&#34;Box and Cox&#34;&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I heard what you were saying! You know nothing of my work! You mean my whole
+fallacy is wrong. How you got to teach a course in anything is totally
+amazing! &lt;br&gt;&amp;mdash; &lt;em&gt;Marshall McLuhan as himself in Annie Hall&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The business of the statistician is to catalyze the scientific learning
+process. &lt;br&gt;&amp;mdash; &lt;em&gt;George E. P. Box&lt;/em&gt;
+There are no routine statistical question; only questionable statistical
+routines. &lt;br&gt;&amp;mdash; &lt;em&gt;D.R. Cox&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We at York must give special emphasis to the humanizing of man, freeing him
+from those pressures which mechanize the mind, which make for routine
+thinking, which divorce thinking and feeling, which permit custom to dominate
+intelligence, which freeze awareness of the human spirit and its
+possibilities&amp;hellip; &lt;br&gt;&amp;mdash; &lt;em&gt;Murray G. Ross&lt;/em&gt;
+It is better to be wrong than to be vague. &lt;br&gt;&amp;mdash; &lt;em&gt;Freeman Dyson&lt;/em&gt;
+It is much more important to be clear than to be correct. &lt;br&gt;&amp;mdash; &lt;em&gt;Blair Wheaton&lt;/em&gt;
+Science may be described as the art of systematic over-simplification. &lt;br&gt;&amp;mdash;
+&lt;em&gt;Karl Popper&lt;/em&gt;
+There are three kinds of lies: lies, damned lies, and statistics. &lt;br&gt;&amp;mdash; &lt;em&gt;Mark
+Twain&lt;/em&gt; with attribution to &lt;em&gt;Benjamin Disraeli&lt;/em&gt;
+Lies &amp;mdash; damned lies &amp;mdash; and statistics &lt;br&gt;&amp;mdash; &lt;em&gt;Leonard Henry Courtney&lt;/em&gt; with attribution
+to a &amp;ldquo;Wise Statesman,&amp;rdquo; possibly Disraeli [see
+http://www.york.ac.uk/depts/maths/histstat/lies.htm]
+Statistical thinking will one day be as necessary for efficient citizenship
+as the ability to read and write. &lt;br&gt;&amp;mdash; &lt;em&gt;S. Wilks&lt;/em&gt; attributing to &lt;em&gt;H. G. Wells&lt;/em&gt;
+A certain elementary training in statistical method is becoming as necessary
+for anyone living in this world of today as reading and writing. &lt;br&gt;&amp;mdash;  &lt;em&gt;H. G. Wells&lt;/em&gt;
+in &amp;ldquo;The Informative Content of Education,&amp;rdquo; The Presidential Address to
+the Educational Science Section of the British Association for the
+Advancement of Science, given on September 2nd, 1937.
+Statistical literacy is a necessary precondition for an educated citizenship
+in a technological democracy &lt;br&gt;&amp;mdash; &lt;em&gt;Gerd Gigenrenzer et al.&lt;/em&gt;
+It is easy to lie with statistics. It is hard to tell the truth without it. &lt;br&gt;&amp;mdash;
+&lt;em&gt;Andrejs Dunkels&lt;/em&gt;
+Data analysis is an aid to thinking and not a replacement for. &lt;br&gt;
+&amp;mdash; &lt;em&gt;Richard Shillington&lt;/em&gt;
+Methodology should never be allowed to displace intelligence. &lt;br&gt;&amp;mdash; paraphrased
+from &lt;em&gt;Leland Wilkinson,&lt;/em&gt; I think
+Another thing about fit indices is that they are used all too often as
+substitutes for thinking. In most cases, statistical analysis should be not
+about determining the &amp;ldquo;best fitting&amp;rdquo; model according to a single numerical
+criterion. In any given research there hopefully are underlying substantive
+theory and knowledge, the research hopefully is guided by research questions
+and knowledge about control variables, there is a distinction between primary
+and secondary interest, a single research often has elements of hypothesis
+testing as well as exploration, etc. etc. Fit indices in the ?IC family are
+useful only as a secondary type of summary information, but research
+questions and existing  knowledge are more important.  &lt;br&gt;&amp;mdash; &lt;em&gt;Tom Snijders&lt;/em&gt;
+If you try to estimate everything, you will end up estimating nothing. &lt;br&gt;&amp;mdash; [I
+forget who said this but I&amp;rsquo;d like to know!]
+Fishing for hypotheses is like throwing a dart at a wall and then drawing a
+target around it. &lt;br&gt;&amp;mdash;  &lt;em&gt;Andrée Monette&lt;/em&gt;
+When statistics are not based on strictly accurate calculations, they mislead
+instead of guide. The mind easily lets itself be taken in by the false
+appearance of exactitude which statistics retain in their mistakes, and
+confidently adopts errors clothed in the form of mathematical truth.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Alexis de Tocqueville&lt;/em&gt; [With the benefit of a few centuries to reflect on this, we
+appreciate that the accuracy of the calculations is only one of many
+requirements to ensure that statistics guide and not mislead]
+Causal interpretation of the results of regression analysis of observational
+data is a risky business.  The responsibility rests entirely on the shoulders
+of the researcher, because the shoulders of the statistical technique cannot
+carry such strong inferences. &lt;br&gt;&amp;mdash; &lt;em&gt;Jan de Leeuw.&lt;/em&gt;
+Correlation is not causation - but it sure helps &lt;br&gt;&amp;mdash; &lt;em&gt;Edward Tufte&lt;/em&gt;
+Correlation does not imply causation but it does waggle its eyebrows
+suggestively and gesture furtively while mouthing &amp;rsquo;look over there.&amp;rsquo; &lt;br&gt;&amp;mdash; &lt;em&gt;Randall
+Munroe, xkcd.com.&lt;/em&gt;
+OK! Correlation does not imply causation yada yada. &lt;br&gt;&amp;mdash; &lt;em&gt;Paul Krugman&lt;/em&gt;
+Do I love you because you&amp;rsquo;re beautiful, or are you beautiful because I love
+you?  &lt;br&gt;&amp;mdash; &lt;em&gt;Prince Topher&lt;/em&gt; to Cinderella, philosophizing on causality
+&amp;hellip; a primary objective in the design and analysis of observational studies
+is to control, through sampling and statistical adjustment, the possible
+biasing effects of those confounding variables that can be measured: a
+primary objective of in the evaluation of observational studies is to
+speculate about the remaining biasing effects of those confounding variables
+that cannot be [or: were not] measured. &lt;br&gt;&amp;mdash; &lt;em&gt;Donald B Rubin (Matched Sampling
+for Causal Effects, 2006)&lt;/em&gt;
+Not everything that can be counted counts, and not everything that counts can
+be counted. &lt;br&gt;&amp;mdash; &lt;em&gt;Albert Einstein&lt;/em&gt;
+If a man is offered a fact which goes against his instincts, he will
+scrutinize it closely, and unless the evidence is overwhelming, he will
+refuse to believe it. If, on the other hand, he is offered something which
+affords a reason for acting in accordance to his instincts, he will accept it
+even on the slightest evidence.  &lt;br&gt;&amp;mdash; &lt;em&gt;Bertrand Russell&lt;/em&gt;
+There&amp;rsquo;s no crime in being ignorant. Problems arise when people who don&amp;rsquo;t know
+they&amp;rsquo;re ignorant rise to power. &lt;br&gt;
+&amp;mdash; &lt;em&gt;Neil deGrasse Tyson (with thanks to Jen Agg)&lt;/em&gt;
+It ain&amp;rsquo;t what they don&amp;rsquo;t know that&amp;rsquo;s the problem &amp;mdash; it&amp;rsquo;s what they know that
+ain&amp;rsquo;t so &lt;br&gt;&amp;mdash; said of members of the U.S. Congress by ?? (communicated by David
+Brillinger).  Variants aimed at different groups are attributed to sources
+ranging from Will Rogers to Ronald Reagan.
+Moral indignation is jealousy wearing a halo. &lt;br&gt;&amp;mdash; &lt;em&gt;H. G. Wells&lt;/em&gt;
+If you can&amp;rsquo;t be a good example, be a horrible warning. &lt;br&gt;&amp;mdash; scrawled in a
+country bathroom.
+From the Globe &amp;amp; Mail, Social Studies column by Michael Kesterton, September
+9, 2003:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Random: Washington-area teenagers have been overheard saying such things as:
+&amp;ldquo;Did you see that outfit she was wearing? That was so random!&amp;rdquo; &amp;ldquo;Who invited
+those random kids to this party?&amp;rdquo; &amp;ldquo;I never watch the news on TV. It&amp;rsquo;s too,
+like, random.&amp;rdquo; The adjective seems to mean &amp;ldquo;serendipitous,&amp;rdquo; but is more
+value-neutral. &amp;ldquo;It&amp;rsquo;s actually rather specific the way students use it,&amp;rdquo;
+English teacher Patrick Welsh tells The Washington Post, adding &amp;ldquo;the
+brightest of the bright kids are the ones who tend to use it.&amp;rdquo;
+I have a soft spot for secret passageways, bookshelves that open into
+silence, staircases that go down into a void, and hidden safes. I even have
+one myself, but I won&amp;rsquo;t tell you where. At the other end of the spectrum are
+statistics which I hate with all my heart. &lt;br&gt;&amp;mdash; &lt;em&gt;Luis Buñuel&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What difference does it make to the dead, the orphans and the homeless,
+whether the mad destruction is wrought under the name of totalitarianism or
+the holy name of liberty or democracy? &lt;br&gt;&amp;mdash; &lt;em&gt;Mahatma Gandhi&lt;/em&gt; (1869 - 1948),
+Non-Violence in Peace and War
+No problem is so big or so complicated that it can&amp;rsquo;t be run away from. &lt;br&gt;&amp;mdash;
+&lt;em&gt;Linus van Pelt (Peanuts)&lt;/em&gt;
+Natural Selection is a mechanism for generating an exceedingly high degree of
+improbability. &lt;br&gt;&amp;mdash; &lt;em&gt;R. A. Fisher&lt;/em&gt;
+In times of change learners inherit the earth, while the learned find
+themselves beautifully equipped to deal with a world that no longer exists. &lt;br&gt;&amp;mdash;
+&lt;em&gt;Eric Hoffer&lt;/em&gt;
+Being a statistician means never having to say you&amp;rsquo;re certain &lt;br&gt;&amp;mdash; ??
+There&amp;rsquo;ll be a time when not having strong opinions about anything will be
+seen not as a character flaw, but as a virtue. &lt;br&gt;&amp;mdash; &lt;em&gt;Alberto Cairo&lt;/em&gt;
+It has often and confidently been asserted, that man&amp;rsquo;s origin can never be
+known: but ignorance more frequently begets confidence than does knowledge:
+it is those who know little, and not those who know much, who so positively
+assert that this or that problem will never be solved by science.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Charles Darwin&lt;/em&gt;
+One of the painful things about our time is that those who feel certainty are
+stupid, and those with any imagination and understanding are filled with
+doubt and indecision. &lt;br&gt;&amp;mdash; &lt;em&gt;Bertrand Russell&lt;/em&gt;
+The methods of statistics turn art into science &lt;br&gt;&amp;mdash; paraphrased from
+&lt;em&gt;Arnold Zellner&lt;/em&gt;
+Statistics is an art struggling to be a science. &lt;br&gt;&amp;mdash;  &lt;em&gt;Heather Krause&lt;/em&gt;
+A data scientist is a statistician who lives in San Francisco &lt;br&gt;&amp;mdash; ?
+A data scientist is a statistician who is useful &lt;br&gt;&amp;mdash; &lt;em&gt;Hadley Wickham&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A popular joke is that  &amp;ldquo;a data scientist is a statistician who lives in San
+Francisco,&amp;rdquo; but Hadley Wickham, a Ph. D. statistician, floated a more cynical
+take on Twitter: &amp;ldquo;a data scientist is a statistician who is useful.&amp;rdquo;
+Statisticians are the guardians of statistical inference, and it is our
+responsibility to educate practitioners about using models appropriately, and
+the hazards of ignoring model assumptions when making inferences. But many
+model assumptions are only truly met under idealized conditions, and thus, as
+Box eloquently argued, one must think carefully about when statistical
+inferences are valid. When they are not, statisticians are caught in the
+awkward position, as Wickham suggests, of always saying &amp;ldquo;no&amp;rdquo;. This position
+can be dissatisfying.  &lt;br&gt;&amp;mdash; &lt;em&gt;Ben Baumer&lt;/em&gt; in &amp;ldquo;A Data Science Course for
+Undergraduates: Thinking with Data&amp;rdquo;, March, 2015
+The absence of evidence is not evidence of absence &lt;br&gt;&amp;mdash; &lt;em&gt;Carl Sagan&lt;/em&gt; and many many
+others cautioning against concluding that the null hypothesis is correct when
+you merely fail to reject it.
+The absence of evidence is not evidence of absence &lt;br&gt;&amp;mdash; &lt;em&gt;Donald Rumsfeld&lt;/em&gt; to
+George W. Bush concluding the alternative hypothesis to justify the attack on Iraq.
+A difference of evidence is not in itself evidence of a difference &lt;br&gt;&amp;mdash; ??&lt;/p&gt;
+&lt;p&gt;The difference between &amp;lsquo;significant&amp;rsquo; and &amp;rsquo;not significant&amp;rsquo; is not itself
+statistically significant. &lt;br&gt;&amp;mdash; &lt;em&gt;Andrew Gelman and Hal Stern, American Statistician&lt;/em&gt; (2006)
+If it were a fact, it wouldn&amp;rsquo;t be called intelligence &lt;br&gt;&amp;mdash; &lt;em&gt;Donald Rumsfeld&lt;/em&gt; interviewed by Stephen Colbert&lt;br&gt;
+Wow! &lt;br&gt;&amp;mdash; &lt;em&gt;Stephen Colbert&lt;/em&gt;
+Changing your mind is the only sure proof you can offer that you&amp;rsquo;ve got one
+&lt;br&gt;&amp;mdash; &lt;em&gt;Richard P. Feynman&lt;/em&gt; quoting ??
+Ignorance more frequently begets confidence than does knowledge.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Charles Darwin, The Descent of Man&lt;/em&gt;
+Statisticians learn not to be surprised by the improbable &amp;mdash; which is usually
+probable &amp;mdash; only by the improbably improbable &lt;br&gt;&amp;mdash; ??
+One might perchance say this was probable that things improbable oft will hap
+to men &lt;br&gt;&amp;mdash; &lt;em&gt;Aristotle quoting Agathon&lt;/em&gt;
+Railing against collinearity is like railing against gravity &lt;br&gt;&amp;mdash; anonymous
+referee commenting on an article on collinearity and variance inflation.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There once was a student of yore&lt;br&gt;
+Whose inference truly was poor.&lt;br&gt;
+From a sample of one,&lt;br&gt;
+His mean was .1,&lt;br&gt;
+And the variance he found was .4.&lt;br&gt;
+&amp;mdash; &lt;em&gt;G. Eric Moorhouse&lt;/em&gt;
+If you think you understand X that&amp;rsquo;s a sure sign that you don&amp;rsquo;t understand X
+&lt;br&gt;&amp;mdash; a metaquote.
+Believe those who are seeking the truth. Doubt those who find it.
+&lt;br&gt;&amp;mdash; &lt;em&gt;André Gide&lt;/em&gt;&lt;br&gt;
+If you amplify everything, you hear nothing. &lt;br&gt;&amp;mdash; &lt;em&gt;Jon Stewart&lt;/em&gt;
+Seek the company of those who seek the truth, and run away from those who
+have found it.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Vaclav Havel&lt;/em&gt;
+The scientist is not a person who gives the right answers, he is one who asks
+the right questions.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Claude Lévi-Strauss&lt;/em&gt; (Le Cru et le Cuit, 1964)
+We are inclined to believe those whom we do not know because they have never
+deceived us.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Samuel Johnson&lt;/em&gt;
+&amp;ldquo;Faith&amp;rdquo; is a fine invention&lt;br&gt;
+For Gentlemen who &lt;em&gt;see!&lt;/em&gt; &lt;br&gt;
+But Microscopes are prudent &lt;br&gt;
+In an Emergency! &lt;br&gt;
+&amp;mdash; &lt;em&gt;Emily Dickinson&lt;/em&gt;
+Let us change our traditional attitude to the construction of programs:
+Instead of imagining that our main task is to instruct a computer what to do,
+let us concentrate rather on explaining to humans what we want the computer
+to do.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Donald E. Knuth, 1984&lt;/em&gt;
+&amp;hellip;academic administrative positions must be about both leadership and
+management because one without the other leads to no results or to trivial
+results. &lt;br&gt;&amp;mdash; &lt;em&gt;Sheila Embleton&lt;/em&gt; &lt;!-- For a few reflections on academic governance that
+are both deep and practical see a Y File article.--&gt;
+It&amp;rsquo;s foie. You&amp;rsquo;ve got to get it right  &lt;br&gt;&amp;mdash; the &lt;em&gt;&amp;ldquo;King of Ginger&amp;rdquo;&lt;/em&gt; rejecting a
+dish performing quality control at The Black Hoof
+There&amp;rsquo;s no task so impressive that it can&amp;rsquo;t be ruined by a rubric &lt;br&gt;&amp;mdash; &lt;em&gt;Hans
+Krause&lt;/em&gt;
+It&amp;rsquo;s not the data alone, but analytics &amp;mdash; and people trained to use them &amp;mdash;
+that generate real value from big data. &lt;br&gt;&amp;mdash; &lt;em&gt;Suzanne Gordon, CIO, SAS&lt;/em&gt;
+After Eisenhower, you couldn&amp;rsquo;t win an election without radio. After JFK, you
+couldn&amp;rsquo;t win an election without television. After Obama, you couldn&amp;rsquo;t win an
+election without social networking. I predict that in 2012, you won&amp;rsquo;t be able
+to win an election without big data. &lt;br&gt;&amp;mdash; &lt;em&gt;Alistair Croll&lt;/em&gt;
+The real battlefront is not between Islam and the West. The real battlefront is
+between all the faith traditions . . . atheists among that . . . all the
+moderates against extremists. &lt;br&gt;&amp;mdash; &lt;em&gt;Imam Feisal Abdul Rauf&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;span class=&#34;marginnote&#34;&gt;
+   &lt;img src=&#39;http://mtor.sci.yorku.ca/MATH6642/pix/rot.gif&#39; alt=&#34;AVP and Suppression&#34;&gt;
+Suppression and the AVP   
+&lt;/span&gt;
+&lt;p&gt;This is not a scientific survey. It&amp;rsquo;s a random survey. &lt;br&gt;&amp;mdash; &lt;em&gt;Representative
+Daniel Webster&lt;/em&gt; voting in May 2012 for the abolition of the American Community
+Survey, the U.S. analogue of the Canadian &amp;ldquo;long form.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There was a young man of Lyon&lt;br&gt;
+Who normally fished on the Rhône.&lt;br&gt;
+One hour he caught seven.&lt;br&gt;
+Next five.&lt;br&gt;
+Then eleven.&lt;br&gt;
+Not normal!  Those fish were Poisson.&lt;br&gt;
+&amp;mdash; &lt;em&gt;G. Eric Moorhouse&lt;/em&gt;
+90% of the world&amp;rsquo;s data was generated in the last two years and 80% of that
+data is unstructured &amp;hellip; &lt;br&gt;&amp;mdash; &lt;em&gt;Geeknet, Inc. 2012&lt;/em&gt;
+Statistical rituals largely eliminate statistical thinking in the social
+sciences. Rituals are indispensable for identification with social groups,
+but they should be the subject rather than the procedure of science.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Gerd Gigerenzer&lt;/em&gt;
+&amp;hellip; statistics is fraught with contextual issues, which is the nature of the
+discipline, whereas often mathematics strips off the context in order to
+abstract and generalize. &lt;br&gt;&amp;mdash; &lt;em&gt;J. Michael Shaughnessy&lt;/em&gt;
+I&amp;rsquo;ve worked in so many areas &amp;mdash; I&amp;rsquo;m sort of a dilettante. Basically, I&amp;rsquo;m not
+interested in doing research and I never have been. I&amp;rsquo;m interested in
+understanding, which is quite a different thing. And often to understand
+something you have to work it out yourself because no one else has done it.
+&lt;br&gt;&amp;mdash; &lt;em&gt;David Blackwell&lt;/em&gt;
+&amp;hellip; no scientific worker has a fixed level of significance at which from year to year, and
+in all circumstances, he rejects hypotheses; he rather gives his mind to each particular
+case in the light of his evidence and his ideas.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Sir Ronald A. Fisher (1956) quoted in Gerd Gigerenzer (2004) &amp;ldquo;Mindless Statistics&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Why do intelligent people engage in statistical rituals rather than in statistical thinking?
+Every person of average intelligence can understand that &lt;code&gt;\(p(D|H)\)&lt;/code&gt; is not the same as &lt;code&gt;\(p(H|D)\)&lt;/code&gt;.
+That this insight fades away when it comes to hypothesis testing suggests that the cause is
+not intellectual but social and emotional. Here is a hypothesis:
+The conflict between statisticians, both suppressed by and inherent in the textbooks,
+has become internalized in the minds of researchers. The statistical ritual is a form of
+conflict resolution, like compulsive hand washing, which makes it resistant to arguments.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Gerd Gigerenzer (2004) &amp;ldquo;Mindless Statistics&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&amp;hellip; causal vocabulary was virtually prohibited [in Statistics] for more than
+half a century. And when you prohibit speech, you prohibit thought and stifle principles,
+methods, and tools.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Judea Pearl (2018) &amp;ldquo;The Book of Why&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In observational studies, it must be remembered that the issue of bias
+reduction nearly always dominates the issue of variance reduction:
+a precise estimate that is badly biased can be more deceptive than helpful,
+and matched
+sampling is a key tool for reducing this bias without compromising
+the integrity or
+objectivity of the study&amp;rsquo;s design.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Donald Rubin (2006) &amp;ldquo;Matched Sampling for Causal Effects&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The special training statisticans receive in mapping real problems into
+formal probability models, computing inferences from data and models,
+and exploring the adequacy of these inferences, is not really part of any
+other formal discipline, yet is often critical to the quality of
+empirical research.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Donald Rubin (1993) &amp;ldquo;The Future of Statistics&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The only victories that leave no regret are those that are gained over ignorance.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Napoléon Bonaparte&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The only thing worse than fighting with your allies is fighting with no allies.
+&lt;br&gt;&amp;mdash; &lt;em&gt;Winston Churchill&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I have a foreboding of an America in my children&amp;rsquo;s or grandchildren&amp;rsquo;s time &amp;ndash; when
+the United States is a service and information economy; when nearly all the manufacturing industries
+have slipped away to other countries;
+when awesome technological powers are in the hands of a very few, and no one representing the public interest can
+even grasp the issues;
+when the people have lost the ability to set their own agendas or knowledgeably question
+those in authority;
+when, clutching our crystals and
+nervously consulting our horoscopes, our critical
+faculties in decline, unable to distinguish between what feels good and what&amp;rsquo;s true,
+we slide, almost without noticing, back into superstition and darkness.&lt;/p&gt;
+&lt;p&gt;The dumbing down
+of America is most evident in the slow decay of substantive content in the enormously influential media,
+the 30-second
+sound bites (now down to 10 seconds or less), lowest common denominator programming,
+credulous presentations on pseudoscience and superstition, but especially
+a kind of celebration of ignorance. &lt;br&gt;&amp;mdash; &lt;em&gt;Carl Sagan&lt;/em&gt; (1995) &lt;em&gt;The Demon-Haunted World: Science as a Candle in the Dark&lt;/em&gt; cited
+on MSNBC, The 11th Hour, by Brian Williams, July 12, 2021.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
